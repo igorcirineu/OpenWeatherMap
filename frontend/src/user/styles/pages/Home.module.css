@@ -1,0 +1,31 @@
+.header{
+  height: 100px;
+  background-color: green;
+  border-bottom: 4px solid black;
+}
+
+.header h1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.barra{
+  width: 100px;
+  height: 4px;
+  margin: 40px auto;
+  background-color: black;
+}
+
+.section{
+  height: 400px;
+  background-color: white;
+  box-shadow: rgb(0 128 0 / 50%) 0px 0px 10px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 739px){
+  section{
+    margin-top: 10px;
+  }
+}
